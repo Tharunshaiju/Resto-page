@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  font-family: "Rancho", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font1{
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.bg-font{
+  color: #2A9D8F;
+
+}
+.bg-secondary{
+  background-color: #E76F51;
+}
+
+
+.btn{
+  @apply bg-secondary  px-6 py-2 text-white rounded hover:shadow-lg hover:bg-orange-500 transition-all duration-300;
+}
+.btn2{
+  @apply bg-green-500 py-2  hover:bg-green-600 hover:shadow-lg border-2 rounded-2xl;
+}
+
+.bg-primary{
+  background-color:#EFEFEF
+}
+
+.effect{
+  @apply hover:border-b-2 border-stone-900
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.container{
+  padding: 10px; background-color: black;
+}
